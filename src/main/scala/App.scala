@@ -1,6 +1,7 @@
 package com.example.msgpack4zsample
 
 import msgpack4z._
+import msgpack4z.CodecInstances.all._
 
 object Sample extends App {
   case class Foo(a: Boolean, b: String, c: List[Int])
